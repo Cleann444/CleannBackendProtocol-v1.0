@@ -1,0 +1,22 @@
+{
+  "name": "cleann-backend-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node dist/index.mjs",
+    "dev": "node --watch index.ts"
+  },
+  "dependencies": {
+    "lru-cache": "^11.0.0",
+    "ws": "^8.18.0",
+    "pino": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.5.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.0.0"
+  }
+}
