@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
-    "start": "node dist/index.mjs",
-    "dev": "node --watch index.ts"
+    "start": "npm run build && node dist/index.mjs"
   },
   "dependencies": {
     "lru-cache": "^11.0.0",
