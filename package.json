@@ -1,4 +1,3 @@
-cat > package.json << 'EOF'
 {
   "name": "cleann-backend-protocol",
   "version": "1.0.0",
@@ -12,4 +11,3 @@ cat > package.json << 'EOF'
     "lru-cache": "^11.0.0"
   }
 }
-EOF
